@@ -73,8 +73,8 @@ def hamming_decode(data):
     print("Original sequence is", information_bits)
 
 if __name__ == '__main__':
-    _, encodedData = argv
-    if (check_data(encodedData)):
-        hamming_decode(encodedData)
+    _, encoded_data = argv
+    if (check_data(encoded_data)):
+        hamming_decode(encoded_data)
     else:
         print("Error: Invalid sequence provided.")
