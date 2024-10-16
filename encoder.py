@@ -67,8 +67,8 @@ def hamming_encode(data):
     print("Encoded sequence:", ''.join(bits))
 
 if __name__ == '__main__':
-    _, dataToEncode = argv
-    if (check_data(dataToEncode)):
-        hamming_encode(dataToEncode)
+    _, data_to_encode = argv
+    if (check_data(data_to_encode)):
+        hamming_encode(data_to_encode)
     else:
         print("Error: Binary sequence should be provided.")
